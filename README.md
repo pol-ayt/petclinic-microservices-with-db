@@ -1858,9 +1858,9 @@ mkdir -p ansible/inventory
 - Prepare static inventory file with name of `hosts.ini` for Ansible under `ansible/inventory` folder using Docker machines private IP addresses.
 
 ```ini
-172.31.91.243   ansible_user=ubuntu  
-172.31.87.143   ansible_user=ubuntu
-172.31.90.30    ansible_user=ubuntu
+172.31.27.241   ansible_user=ubuntu  
+172.31.21.126   ansible_user=ubuntu
+172.31.29.66    ansible_user=ubuntu
 ```
 
 - Commit the change, then push to the remote repo.
